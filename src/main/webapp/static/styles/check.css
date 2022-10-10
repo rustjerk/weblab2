@@ -1,0 +1,57 @@
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.img-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    color: #D85810;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+.row {
+    align-items: stretch;
+}
+
+.back {
+    display: block;
+    font-size: 20px;
+    line-height: 100px;
+    background-image: url("../img/obama.gif");
+    background-size: 100% 100%;
+    padding: 16px 24px;
+    text-shadow: 2px 0 #ffc800, -2px 0 #ffc800, 0 2px #ffc800, 0 -2px #ffc800,
+    1px 1px #ffc800, -1px -1px #ffc800, 1px -1px #ffc800, -1px 1px #ffc800;
+    color: black;
+    text-decoration: none;
+    border-radius: 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    transition: all 800ms ease;
+}
+
+.back:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+    transform: rotateY(180deg);
+}
+
+table.params {
+    border-collapse: collapse;
+}
+
+table.params td {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+.time {
+    margin-top: 16px;
+}
